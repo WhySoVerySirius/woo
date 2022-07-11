@@ -1,0 +1,22 @@
+li {
+    width: calc(25% - 15px);
+    transition: filter .6s, opacity .6s, transform .6s;
+    transition-property: filter, opacity, transform;
+    transition-duration: 0.6s, 0.6s, 0.6s;
+    transition-timing-function: ease, ease, ease;
+    transition-delay: 0s, 0s, 0s;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+summary {
+    display: flex;
+    flex-direction: column;
+}
+
+.productCategory {
+    display: block;
+}
